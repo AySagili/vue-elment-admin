@@ -3,6 +3,7 @@
 import Layout from '@/layout'
 
 const chartsRouter = {
+  hidden: true,
   path: '/charts',
   component: Layout,
   redirect: 'noRedirect',
